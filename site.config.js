@@ -2,28 +2,28 @@ const CONFIG = {
   // profile setting (required)
   profile: {
     name: "dobo",
-    image: "", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
+    image: "/avatar.png", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "(wannabe) bioinformatics engineer",
-    bio: "philosophy of science and bioinformatics",
+    bio: "philosophy of science bioinformatics",
     email: "fastwalkerdo@gmail.com",
     linkedin: "fastwalkerdo",
     github: "fastwalkerdo",
     instagram: "",
   },
   projects: [
-    {
-      name: `learning new things`,
-      href: "",
-    },
+    // {
+    //   name: `learning new things`,
+    //   href: "",
+    // },
   ],
   // blog setting (required)
   blog: {
-    title: "dobo log",
-    description: "welcome to dobolog",
+    title: "dobo",
+    description: "welcome to dobo-log",
   },
 
   // CONFIG configration (required)
-  link: "https://morethan-log.vercel.app",
+  link: "https://fastwalkerdo.vercel.app",
   since: 2022, // If leave this empty, current year will be used.
   lang: "en-US", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
   ogImageGenerateURL: "https://og-image-korean.vercel.app", // The link to generate OG image, don't end with a slash
