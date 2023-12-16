@@ -12,8 +12,8 @@ const CONFIG = {
   },
   projects: [
      {
-    //   name: `learning new things`,
-    //   href: "",
+       name: ``,
+       href: "",
      },
   ],
   // blog setting (required)
